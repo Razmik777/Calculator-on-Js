@@ -1,0 +1,59 @@
+body{
+	background: rgb(255 227 215);
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	min-height: 300px;
+}
+
+input{
+	width: 380px;
+	font-size: 32px;
+	background: #333;
+	text-align: right;
+	padding: 16px 10px;
+	border: 0;
+	color: #eee;
+}
+
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td{
+	font-size: 26px;
+	padding: 10px;
+	text-align: center;
+	cursor: default;
+	transition: 0.2s;
+}
+
+td:hover{
+	background: rgb(199 199 199);
+}
+
+.container{
+	width: 400px;
+	background: #fff;
+	box-shadow: 0 20px 40px rgba(0 0 0 0.1);
+}
+
+.vari{
+	background: rgb(70 70 70);
+	color: #eee;
+}
+
+.vari:hover{
+	background: #222;
+}
+
+.equalbtn{
+	background: rgb(255 160 51);
+}
+
+.red{
+	font-weight: 700;
+	color: red;
+}
